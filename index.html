@@ -2,41 +2,48 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./css/style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 </head>
 <body>
+  
 <!-- partial:index.partial.html -->
-<section>
-  <div class="banner"> 
-    <h1>Revolax</h1>
-    <canvas id="canvas" class="white-bar-top" height="60" width="172"></canvas>
-    <span class="animate-text-top"></span>
-    <canvas id="canvasLine" class="white-line-top" height="200" width="150"></canvas>
-    <canvas id="canvasBottom" class="white-bar-bottom" height="60" width="150"><span>test</span></canvas>
-    <canvas id="canvasBottomLine" class="white-line-bottom" height="200" width="150"></canvas>
-    <span class="animate-text-bottom"></span>
-    <canvas id="canvasRectangle" class="white-rectangle-bottom" width=50 height=270></canvas>
-    <span class="animate-text-rectangle"></span>
-    <span class="animate-coursor-rectangle">|</span>
+<section class="water-banner">
+  <div class="water-banner__inner"> 
+    <img class="water-banner__inner--main-bubble" src="assets/Rev_banner1.png" alt="Big Bubble">
+    <img class="water-banner__inner--logo" src="assets/Rev_banner_logo.png" alt="Logo">
+    <div class="water-banner__wrapper">
+      <canvas id="canvas" class="water-banner__wrapper--white-bar-top" height="60" width="172"></canvas>
+      <span class="animate-text-top water-banner__wrapper--white-text-top"></span>
+      <canvas id="canvasLine" class="water-banner__wrapper--white-line-top" height="200" width="150"></canvas>
+    </div>
+    <div class="water-banner__wrapper">
+      <canvas id="canvasBottom" class="water-banner__wrapper--white-bar-bottom" height="60" width="150"></canvas>
+      <canvas id="canvasBottomLine" class="water-banner__wrapper--white-line-bottom" height="200" width="150"></canvas>
+      <span class="animate-text-bottom water-banner__wrapper--white-text-bottom"></span>
+    </div>
+    <canvas id="canvasRectangle" class="water-banner__rectangle" width=50 height=270></canvas>
+    <span class="animate-text-rectangle water-banner__rectangle--text"></span>
+    <!-- <span class="animate-coursor-rectangle water-banner__rectangle--coursor">|</span> -->
     <!-- <canvas id="paper" class="white-line-1" height="200" width="150"></canvas> -->
-    <img src="large_bubble.png" alt="" data-rellax-speed="3" class="large-bubble-1 rellax">
-    <img src="large_bubble.png" alt="" data-rellax-speed="3" class="medium-bubble-1 rellax">
-    <img src="large_bubble.png" alt="" data-rellax-speed="4" data-rellax-procentage="5" class="small-bubble-1 rellax">
-  </div>
-  <img src="large_bubble.png" alt="" data-rellax-speed="3" class="large-bubble-2 rellax">
-  <img src="large_bubble.png" alt="" data-rellax-speed="5" class="large-bubble-3 rellax">
-  <img src="large_bubble.png" alt="" data-rellax-speed="2" class="medium-bubble-2 rellax">
-  <img src="large_bubble.png" alt="" data-rellax-speed="5" class="medium-bubble-3 rellax">
-  <img src="large_bubble.png" alt="" data-rellax-speed="3" class="small-bubble-1 rellax">
-  <img src="large_bubble.png" alt="" data-rellax-speed="5" class="small-bubble-2 rellax">
-  <img src="large_bubble.png" alt="" data-rellax-speed="2" class="small-bubble-3 rellax">
-  <img src="large_bubble.png" alt="" data-rellax-speed="5" class="small-bubble-4 rellax">
-  <img src="large_bubble.png" alt="" data-rellax-speed="2" class="small-bubble-5 rellax">
-  <img src="large_bubble.png" alt="" data-rellax-speed="3" class="small-bubble-6 rellax">
-  <img src="large_bubble.png" alt="" data-rellax-speed="2" class="medium-bubble-7 rellax">
-  <img src="large_bubble.png" alt="" data-rellax-speed="3" class="small-bubble-8 rellax">
+  </div> 
+  <img src="assets/large_bubble.png" alt="" data-rellax-speed="3" class="water-banner__large-bubble water-banner__large-bubble--1 rellax">
+  <img src="assets/large_bubble.png" alt="" data-rellax-speed="3" class="water-banner__large-bubble water-banner__large-bubble--2 rellax">
+  <img src="assets/large_bubble.png" alt="" data-rellax-speed="3" class="water-banner__large-bubble water-banner__large-bubble--3 rellax">
+  <img src="assets/large_bubble.png" alt="" data-rellax-speed="3" class="water-banner__large-bubble water-banner__large-bubble--4 rellax">
+  <img src="assets/large_bubble.png" alt="" data-rellax-speed="3" class="water-banner__medium-bubble water-banner__medium-bubble--1 rellax">
+  <img src="assets/large_bubble.png" alt="" data-rellax-speed="3" class="water-banner__medium-bubble water-banner__medium-bubble--2 rellax">
+  <img src="assets/large_bubble.png" alt="" data-rellax-speed="3" class="water-banner__medium-bubble water-banner__medium-bubble--3 rellax">
+  <img src="assets/large_bubble.png" alt="" data-rellax-speed="3" class="water-banner__medium-bubble water-banner__medium-bubble--4 rellax">
+  <img src="assets/large_bubble.png" alt="" data-rellax-speed="4" 
+  data-rellax-procentage="5" class="water-banner__small-bubble water-banner__small-bubble--1 rellax">
+  <img src="assets/large_bubble.png" alt="" data-rellax-speed="4" 
+  data-rellax-procentage="5" class="water-banner__small-bubble water-banner__small-bubble--2 rellax">
+  <img src="assets/large_bubble.png" alt="" data-rellax-speed="4" 
+  data-rellax-procentage="5" class="water-banner__small-bubble water-banner__small-bubble--3 rellax">
+  <img src="assets/large_bubble.png" alt="" data-rellax-speed="4" 
+  data-rellax-procentage="5" class="water-banner__small-bubble water-banner__small-bubble--4 rellax">
 </section>
 
 
